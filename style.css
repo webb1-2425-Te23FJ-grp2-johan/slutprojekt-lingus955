@@ -71,7 +71,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(images/bluewindow.jpeg);
+    background-image: url(img/header.webp);
   
     @media screen and (min-width: 1000px) {
       height: 500px;
