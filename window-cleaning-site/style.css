@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .logo-container {
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #55b8ff;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .h2-top-bar {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  .header {
+    min-height: 70px;
+    background-color: #55b8ff1f;
+  }
+  
+  .logo {
+    max-width: 225px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 10px;
+  }
+  
+  a {
+    color: #004e86;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "league spartan", serif;
+  }
+  
+  .everything-except-header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header-img-div {
+    height: 400px;
+    min-width: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/bluewindow.jpeg);
+  
+    @media screen and (min-width: 1000px) {
+      height: 500px;
+    }
+  }
+  
+  .header-text-div {
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+  
+    @media screen and (min-width: 1000px) {
+      justify-content: center;
+      padding-top: 20px;
+    }
+  }
+  
+  .header-text {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    display: flex;
+  
+    @media screen and (min-width: 1000px) {
+      font-size: 30px;
+      margin-left: 10px;
+    }
+  }
+  
+  .fonster-container {
+    padding-top: 10px;
+    min-width: none;
+    max-width: 1200px;
+  }
+  
+  .fonster-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .welcome-text-div {
+    background-color: #f7f7f7;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid;
+    border-color: #00000007;
+  }
+  
+  .valkommen-text {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .info-p {
+    font-size: 22px;
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  
+  .fonster-example-container {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    display: flex;
+    border-radius: 20px;
+    border: solid;
+    border-color: #00000007;
+    max-height: 270px;
+  }
+  
+  .fonster-example-container-2 {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    border: solid;
+    border-color: #00000007;
+    max-height: 270px;
+  }
+  
+  .big-container {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  .fonster-img-div {
+    width: 50%;
+  }
+  
+  .fonster-img {
+    object-fit: cover;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .fonster-example-text {
+    padding: 5px;
+    padding-right: 10px;
+    width: 50%;
+  }
+  
+  .fonster-example-text-2 {
+    margin-left: 10px;
+    padding: 5px;
+    width: 50%;
+  }
+  
+  .boka-container {
+    margin: 30px;
+    background-color: #c9e9ff;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #1673b11a;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+    @media screen and (min-width: 0px) {
+      max-width: 90%;
+    }
+  }
+  
+  .boka-div-link {
+    /* display: flex;
+    justify-content: center;
+    background-color: #3494d4;
+    height: 40px;
+    width: 140px;
+    border-radius: 15px; */
+    background-color: #58a0ff;
+    border: solid 3px;
+    border-color: #3e92ff;
+    padding: 10px;
+    text-align: center;
+    transition: 0.4s;
+  }
+  
+  .boka-div-link:hover {
+    background: linear-gradient(90deg, #ffb19e 0%, #fff0f0 100%);
+    width: 70%;
+    border-radius: 50px;
+    padding: 100px;
+    transition: 1s;
+  }
+  
+  .boka-link-text {
+    font-size: 23px;
+    padding: 12px;
+    color: white;
+  }
+  
+  .boka-div-link-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boka-tid-text {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .social-proof {
+    background-color: #f1b3575d;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 20px;
+  }
+  
+  .social-proof-img-container-2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-proof-img-container {
+    max-width: 100px;
+  }
+  
+  .social-proof-img {
+    border-radius: 50px;
+    max-width: 100px;
+  }
+  
+  .social-proof-text {
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+  }
+  
+  .social-proof-p {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .social-proof-stars {
+    font-size: 30px;
+    color: #d87300;
+  }
+  
+  .breadcrumb-div {
+    margin-top: 20px;
+    padding: 5px;
+    border: solid;
+    color: #00000023;
+  }
+  
+  .breadcrumb-1 {
+    color: black;
+  }
+  
+  .info-list {
+    font-size: 20px;
+    padding: 2px;
+  }
+  
+  .pris-box {
+    background-color: #55b8ff1f;
+    border: solid;
+    border-color: #00000013;
+    max-width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .boka-email-card {
+    margin: 30px;
+    background-color: #c9e9ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid;
+    border-color: #004e8627;
+  }
+  
+  .email-link-text {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .boka-tid-h1-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boka-tid-h1 {
+    padding: 5px;
+    max-width: 280px;
+    background-color: #eeeeeebd;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .small-text {
+    font-size: 15px;
+  }
+  
+  .vad-hander-efter-bokning-container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin: 15px;
+    border: solid;
+    border-color: #00000011;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .big-p {
+    font-size: 23px;
+    text-align: left;
+  }
+  
+  .big-h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  .obs-box {
+    max-width: 380px;
+  }
+  
+  .prislista-page-parent {
+    padding: 10px;
+  }
+  
+  .navbar {
+    position: absolute;
+    padding-left: 50px;
+  }
+  
+  .nav-link {
+  }
+  
