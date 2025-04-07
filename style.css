@@ -218,6 +218,7 @@
     border-radius: 15px; */
     background-color: #58a0ff;
     border: solid 3px;
+    border-radius: 20px;
     border-color: #3e92ff;
     padding: 10px;
     text-align: center;
@@ -225,11 +226,8 @@
   }
   
   .boka-div-link:hover {
-    background: linear-gradient(90deg, #ffb19e 0%, #fff0f0 100%);
-    width: 70%;
-    border-radius: 50px;
-    padding: 100px;
-    transition: 1s;
+    background-color: #98d9ff;
+    transition: 0.5s;
   }
   
   .boka-link-text {
