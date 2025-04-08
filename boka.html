@@ -1,54 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="images/Kanit-BoldItalic.ttf" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <div class="page-parent">
-      <div class="top-bar">
-        <h2 class="h2-top-bar">Nu kan du enkelt boka här - online!</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="images/Kanit-BoldItalic.ttf" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <div class="page-parent">
+    <div class="top-bar">
+      <h2 class="h2-top-bar">Nu kan du enkelt boka online!</h2>
+    </div>
+
+    <div class="header">
+      <div class="logo-container">
+        <a href="homepage.html">
+          <img src="img/logo.png" alt="logo" class="logo" />
+        </a>
       </div>
 
-      <div class="header">
-        <div class="logo-container">
-          <a href="homepage.html">
-            <img src="img/logo.png" alt="logo" class="logo" />
-          </a>
-        </div>
+      <nav class="navbar">
+        <a href="" class="nav-link">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg>
+        </a>
+      </nav>
 
-        <nav class="navbar">
-          <a href="" class="nav-link">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-            </svg>
-          </a>
-        </nav>
-
-        <div class="links">
-          <a href="homepage.html">Hem</a>
-          <a href="boka.html">Boka tid</a>
-          <a href="priser.html">Priser</a>
-          <a href="kontakta-oss.html">Kontakta oss</a>
-        </div>
+      <div class="links">
+        <a href="boka.html">Boka tid</a>
+        <a href="priser.html">Priser</a>
+        <a href="kontakta-oss.html">Kontakta oss</a>
       </div>
+    </div>
 
-      <div class="breadcrumb-div">
-        <a class="breadcrumb-1" href="homepage.html">Hem /</a>
-        <a class="breadcrumb-1" href="boka.html">Boka /</a>
-      </div>
+    <div class="breadcrumb-div">
+      <a class="breadcrumb-1" href="homepage.html">Hem /</a>
+      <a class="breadcrumb-1" href="boka.html">Boka /</a>
+    </div>
 
-      <div class="boka-div">
+    <!-- <div class="boka-div">
         <div class="boka-tid-h1-container">
           <h1 class="boka-tid-h1">Boka din tid nedan</h1>
         </div>
@@ -61,9 +59,9 @@
           <li class="info-list">Typ av bostad (t.ex villa eller lägenhet)</li>
           <li class="info-list">Önskat datum och tid</li>
         </div>
-      </div>
+      </div> -->
 
-      <div class="boka-email-card">
+    <!-- <div class="boka-email-card">
         <div>
           <div class="email-link-text">
             <h1>Klar att boka?</h1>
@@ -77,9 +75,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="vad-hander-efter-bokning-container">
+    <div class="contactform-container">
+      <form action="action_page.php">
+        <label for="name">Namn</label>
+        <input type="text" id="name" name="firstname" placeholder="Ditt namn här..">
+      </form>
+    </div>
+
+    <!-- <div class="vad-hander-efter-bokning-container">
         <h2 class="big-h2">Vad händer efter att jag bokat?</h2>
         <p class="big-p">
           Efter du har bokat återkommer vi så snabbt som möjligt med mer
@@ -92,7 +97,8 @@
           När vi bestämt om datum och tid, kommer vi hem till dig och putsar
           dina fönster!
         </p>
-      </div>
-    </div>
-  </body>
+      </div> -->
+  </div>
+</body>
+
 </html>
