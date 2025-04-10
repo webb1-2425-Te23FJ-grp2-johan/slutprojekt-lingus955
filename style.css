@@ -63,7 +63,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
 
   @media screen and (min-width: 699px) {
     grid-template-columns: 2fr 1fr;
@@ -82,6 +82,7 @@ body {
     height: 500px;
   }
 }
+
 
 .header-text-div {
   padding: 10px;
@@ -153,11 +154,16 @@ p {
   border-radius: 20px;
   border: solid;
   border-color: #00000007;
-  max-height: 270px;
+  /* max-height: 270px; */
   display: flex;
+
+  @media screen and (min-width: 699px) {
+    max-height: 270px;
+  }
 }
 
 .fonster-example-container-2 {
+  display: flex;
   margin: 10px;
   margin-top: 20px;
   padding: 15px;
@@ -165,8 +171,11 @@ p {
   border-radius: 20px;
   border: solid;
   border-color: #00000007;
-  max-height: 270px;
-  display: flex;
+  /* max-height: 270px; */
+
+  @media screen and (min-width: 699px) {
+    max-height: 270px;
+  }
 }
 
 .big-container {
@@ -186,12 +195,11 @@ p {
 
 .fonster-example-text {
   padding: 5px;
-  padding-right: 10px;
   width: 50%;
+
 }
 
 .fonster-example-text-2 {
-  margin-left: 10px;
   padding: 5px;
   width: 50%;
 }
@@ -388,12 +396,20 @@ p {
 }
 
 .footer-content {
-  padding: 100px;
   display: grid;
-  grid-template-columns: 3fr 3fr 4fr;
-  max-width: 1200px;
+  grid-template-columns: 1fr;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px;
+
+  @media screen and (min-width: 699px) {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer-links {
@@ -403,10 +419,15 @@ p {
 }
 
 .footer-about-us {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
 }
 
+
 .footer-info {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
 }
 
