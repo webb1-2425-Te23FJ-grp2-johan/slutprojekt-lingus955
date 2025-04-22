@@ -79,25 +79,38 @@
 
     <div class="contactform-container">
       <form action="action_page.php">
-        <label for="name">Namn</label>
-        <input type="text" id="name" name="firstname" placeholder="Ditt namn här..">
+        <div class="contactform-div">
+          <label for="name">Namn</label>
+          <input type="text" id="name" name="firstname" placeholder="Ditt namn här..">
+        </div>
+
+        <div class="contactform-div">
+          <label for="lname">Efternamn</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn här..">
+        </div>
+
+        <div class="contactform-div">
+          <label for="country">Antal fönster</label>
+          <select id="country" name="country">
+            <option value="australia">5-10st</option>
+            <option value="canada">10-20st</option>
+            <option value="usa">20-30st</option>
+            <option value="usa">30-40st</option>
+          </select>
+        </div>
+
+        <div class="contactform-div">
+          <label for="subject">Behöver vi veta något mer?</label>
+          <textarea id="subject" name="subject" placeholder="Skriv här.." style="height:100px"></textarea>
+        </div>
+
+        <div class="contactform-div">
+          <input class="submit-button" type="submit" value="Skicka">
+        </div>
+
       </form>
     </div>
-
-    <!-- <div class="vad-hander-efter-bokning-container">
-        <h2 class="big-h2">Vad händer efter att jag bokat?</h2>
-        <p class="big-p">
-          Efter du har bokat återkommer vi så snabbt som möjligt med mer
-          information!
-        </p>
-        <p class="big-p">
-          Om ditt önskade datum inte passar, ger vi förslag på nya datum!
-        </p>
-        <p class="big-p">
-          När vi bestämt om datum och tid, kommer vi hem till dig och putsar
-          dina fönster!
-        </p>
-      </div> -->
+  </div>
   </div>
 </body>
 

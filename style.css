@@ -388,7 +388,7 @@ p {
 
 .navbar {
   position: absolute;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
 .footer {
@@ -439,4 +439,51 @@ p {
   padding: 20px;
 }
 
-.nav-link {}
+.contactform-div {
+  display: grid;
+  max-width: 80%;
+  padding: 7px;
+
+  @media screen and (min-width: 699px) {
+    max-width: 50%;
+  }
+}
+
+.submit-button {
+  max-width: 40%;
+  background-color: #55b8ff;
+  color: white;
+  border: none;
+  padding: 8px;
+}
+
+.instagram-div {
+  padding: 10px;
+}
+
+.instagram-h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-container {
+  margin: 10px;
+  background-color: #eef8ff;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 699px) {
+    background-color: #eef8ff;
+    display: grid;
+    margin-top: 100px;
+  }
+}
+
+.below-homepage-grid {
+
+
+}
