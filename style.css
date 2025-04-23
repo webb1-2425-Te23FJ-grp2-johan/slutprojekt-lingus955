@@ -479,8 +479,25 @@ p {
   @media screen and (min-width: 699px) {
     background-color: #eef8ff;
     display: grid;
-    margin-top: 100px;
+    margin-top: 20px;
   }
+}
+
+.call-us-div {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #d2ecff;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: solid;
+  border-color: #bde3ff;
+}
+
+.call-us-div-2 {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .below-homepage-grid {
