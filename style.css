@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-:root {}
+:root {
+}
 
 img {
   display: block;
@@ -85,7 +86,6 @@ body {
     background-image: url(img/header2.png);
   }
 }
-
 
 .header-text-div {
   padding: 10px;
@@ -200,7 +200,6 @@ p {
 .fonster-example-text {
   padding: 5px;
   width: 50%;
-
 }
 
 .fonster-example-text-2 {
@@ -428,7 +427,6 @@ p {
   padding: 10px;
 }
 
-
 .footer-info {
   display: flex;
   flex-direction: column;
@@ -513,44 +511,82 @@ h1 {
 }
 
 .below-homepage-grid {
-
-
 }
 
 .cookiebar {
   background-color: #6faeff;
-  padding: 15px 0;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
   position: fixed;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
-  z-index: 1;
+  display: flex;
+  border-radius: 10px;
 }
 
-.cookiebar .cookie-container  {
+.cookiebar,
+.cookie-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1000px;
-  display: block;
   padding: 0 20px;
-  margin: 0 auto;
+  margin: 0;
 }
 
-.cookiebar .cookie-container .cookie-wrap {
-  width: 490px;
-  float: left;
+.btnWrap {
+  align-self: center;
 }
 
-.cookiebar .cookie-container .cookie-wrap .span {
-  font-size: 14px;
+.button-yes {
+  background-color: #2a86ff;
   color: white;
-  font-weight: 700;
+  max-height: 50%;
+  border: solid #4093ff;
 }
 
-.cookiebar .cookie-container .cookie-wrap .abbr {
-  font-size: 12px;
-  color: white;
-  font-weight: 400;
-  display: block;
+.button-no {
+  background-color: #bbd9ff;
+  border: solid #93c2ff;
+  max-height: 50%;
+  
+}
+
+.button-no,
+.button-yes {
+  display: flex;
+  margin: 12px;
+  padding: 10px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.cookie-p {
+  background-color: #318aff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.cookie-wrap {
+}
+
+.cookie-logo-container {
+  margin-top: 10px;
+}
+
+.cookie-logo {
+  max-width: 150px;
+}
+
+.button-yes:hover {
+  background-color: #157aff;
+  transition: 0.5s;
+}
+
+.button-no:hover {
+  background-color: #cfe4ff;
+  transition: 0.5s;
 }
