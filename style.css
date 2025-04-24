@@ -81,6 +81,9 @@ body {
   @media screen and (min-width: 1000px) {
     height: 500px;
   }
+  @media screen and (min-width: 799px) {
+    background-image: url(img/header2.png);
+  }
 }
 
 
@@ -101,6 +104,7 @@ body {
   font-size: 20px;
   margin-left: 10px;
   display: flex;
+  flex-direction: column;
 
   @media screen and (min-width: 1000px) {
     font-size: 30px;
@@ -500,7 +504,53 @@ p {
   margin-right: 30px;
 }
 
+p {
+  margin: 0 px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
 .below-homepage-grid {
 
 
+}
+
+.cookiebar {
+  background-color: #6faeff;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.cookiebar .cookie-container  {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.cookiebar .cookie-container .cookie-wrap {
+  width: 490px;
+  float: left;
+}
+
+.cookiebar .cookie-container .cookie-wrap .span {
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+
+.cookiebar .cookie-container .cookie-wrap .abbr {
+  font-size: 12px;
+  color: white;
+  font-weight: 400;
+  display: block;
 }
