@@ -463,6 +463,19 @@ p {
   padding: 10px;
 }
 
+.instagram-div-2 {
+  padding: 10px;
+}
+
+.instagram-post-container {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1099px) {
+    flex-direction: row;
+  }
+}
+
 .instagram-h1 {
   display: flex;
   justify-content: center;
@@ -524,6 +537,8 @@ h1 {
   width: 100%;
   display: flex;
   border-radius: 10px;
+  
+
 }
 
 .cookiebar,
