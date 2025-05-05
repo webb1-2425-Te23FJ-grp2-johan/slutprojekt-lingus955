@@ -537,8 +537,6 @@ h1 {
   width: 100%;
   display: flex;
   border-radius: 10px;
-  
-
 }
 
 .cookiebar,
@@ -566,7 +564,6 @@ h1 {
   background-color: #bbd9ff;
   border: solid #93c2ff;
   max-height: 50%;
-  
 }
 
 .button-no,
@@ -604,4 +601,16 @@ h1 {
 .button-no:hover {
   background-color: #cfe4ff;
   transition: 0.5s;
+}
+
+.cookie-banner {
+  width: 100%;
+  background: #3b3b3b;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
