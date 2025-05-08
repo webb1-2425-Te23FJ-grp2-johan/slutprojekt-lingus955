@@ -543,19 +543,6 @@ h1 {
 .below-homepage-grid {
 }
 
-.cookiebar {
-  background-color: #6faeff;
-  color: white;
-  font-weight: 500;
-  padding: 15px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  border-radius: 10px;
-}
-
 .cookiebar,
 .cookie-container {
   display: flex;
@@ -565,6 +552,7 @@ h1 {
   padding: 0 20px;
   margin: 0;
 }
+
 
 .btnWrap {
   align-self: center;
@@ -620,14 +608,20 @@ h1 {
   transition: 0.5s;
 }
 
-.cookie-banner {
-  width: 100%;
-  background: #3b3b3b;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
+.cookiebar {
+  background-color: #6faeff;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-  position: fixed;
+.cookie-parent {
+  width: 100%;
   bottom: 0;
-  left: 0;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
 }
