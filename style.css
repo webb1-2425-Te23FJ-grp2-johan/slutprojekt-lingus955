@@ -268,7 +268,7 @@ p {
   margin-top: 40px;
   margin-bottom: 40px;
   border: solid;
-  border-color: #000000;
+  border-color: #f1b35744;
   border-radius: 20px;
 }
 
@@ -435,6 +435,21 @@ p {
   display: flex;
   flex-direction: column;
   padding: 10px;
+
+  @media screen and (min-width: 699px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+  }
+}
+
+.lankar-header-container {
+  @media screen and (min-width: 699px) {
+    margin-bottom: 33px;
+  }
+}
+
+.footer-links-container {
 }
 
 .footer-about-us {
@@ -553,9 +568,8 @@ h1 {
   margin: 0;
 }
 
-
 .btnWrap {
-  align-self: center;
+  align-items: center;
 }
 
 .button-yes {
@@ -572,12 +586,15 @@ h1 {
 }
 
 .button-no,
-.button-yes {
+.button-yes,
+#button-yes,
+#button-no {
   display: flex;
   margin: 12px;
   padding: 10px;
   align-self: center;
   border-radius: 15px;
+  min-width: 150px;
 }
 
 .cookie-p {
@@ -598,12 +615,14 @@ h1 {
   max-width: 150px;
 }
 
-.button-yes:hover {
+.button-yes:hover,
+#button-yes:hover {
   background-color: #157aff;
   transition: 0.5s;
 }
 
-.button-no:hover {
+.button-no:hover,
+#button-no:hover {
   background-color: #cfe4ff;
   transition: 0.5s;
 }
