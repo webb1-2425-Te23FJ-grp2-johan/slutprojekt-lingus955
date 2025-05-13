@@ -1,18 +1,15 @@
-const cookiebar = document.querySelector(".cookie-bar");
+const cookiebar = document.querySelector(".cookiebar");
 const cookieBtn = document.querySelector("#button-yes");
-
-cookieBtn.addEventListener("click", () => {
-  alert("du klickade på knappen!");
-});
 
 
 cookieBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  cookiebar.classList.remove("cookieparent");
+  cookiebar.classList.remove("cookiefisk");
   localStorage.setItem("cookieBarDisplayed", "true");
+  
 });
 
-if(localStorage.getItem("cookieBannerDisplayed")){
-  cookieBanner.classList.remove("cookieparent");
+if(localStorage.getItem("cookieBarDisplayed")){
+  cookiebar.classList.remove("cookiefisk");
 }
 
