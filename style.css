@@ -572,21 +572,19 @@ h1 {
   align-items: center;
 }
 
-.button-yes {
+/* .button-yes {
   background-color: #2a86ff;
   color: white;
   max-height: 50%;
-  border: solid #4093ff;
+  border: solid #ffffff;
 }
 
 .button-no {
   background-color: #bbd9ff;
   border: solid #93c2ff;
   max-height: 50%;
-}
+} */
 
-.button-no,
-.button-yes,
 #button-yes,
 #button-no {
   display: flex;
@@ -597,6 +595,18 @@ h1 {
   min-width: 150px;
 }
 
+#button-yes {
+  background-color: #2a86ff;
+  color: white;
+  max-height: 50%;
+  border: solid #ffffff34;
+}
+
+#button-no {
+  background-color: #bbd9ff;
+  border: solid #93c2ff;
+  max-height: 50%;
+}
 .cookie-banner-active {
   display: block;
 }
@@ -606,9 +616,6 @@ h1 {
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
-}
-
-.cookie-wrap {
 }
 
 .cookie-logo-container {
@@ -621,13 +628,13 @@ h1 {
 
 .button-yes:hover,
 #button-yes:hover {
-  background-color: #157aff;
+  background-color: #1b6fdd;
   transition: 0.5s;
 }
 
 .button-no:hover,
 #button-no:hover {
-  background-color: #cfe4ff;
+  background-color: #eef5ff;
   transition: 0.5s;
 }
 
@@ -636,10 +643,11 @@ h1 {
   color: white;
   font-weight: 500;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-right: auto;
   margin-left: auto;
   display: none;
+  border: solid white;
 }
 
 .cookiefisk {
