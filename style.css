@@ -597,6 +597,10 @@ h1 {
   min-width: 150px;
 }
 
+.cookie-banner-active {
+  display: block;
+}
+
 .cookie-p {
   background-color: #318aff;
   border-radius: 10px;
