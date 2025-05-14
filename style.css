@@ -208,20 +208,19 @@ p {
 }
 
 .boka-container {
-  margin: 30px;
+  margin: 10px;
+  margin-top: 20px;
   background-color: #c9e9ff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
   border: solid;
   border-color: #1673b11a;
   max-width: 500px;
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
 
   @media screen and (min-width: 0px) {
     max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -661,5 +660,3 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-
-
