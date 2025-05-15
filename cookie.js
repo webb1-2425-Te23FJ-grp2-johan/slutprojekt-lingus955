@@ -13,3 +13,5 @@ if(localStorage.getItem("cookieBarDisplayed")){
   cookiebar.classList.remove("cookiefisk");
 }
 
+
+
