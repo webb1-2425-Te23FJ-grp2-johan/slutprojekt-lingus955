@@ -691,6 +691,21 @@ h1 {
 }
 
 .calculator-container {
-  background-color: #ececec;
+  background-color: #dcebff;
   padding: 20px;
+}
+
+.custom-btn {
+  color: white;
+  display: inline-block;
+  background-color: #58a0ff;
+  border: solid 3px;
+  border-radius: 20px;
+  border-color: #3e92ff;
+  padding: 10px;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
 }

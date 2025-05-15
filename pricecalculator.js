@@ -1,4 +1,4 @@
-const pricePerWindow = 40;
+const pricePerWindow = 60;
 
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.getElementById("calculateBtn");
