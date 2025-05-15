@@ -120,15 +120,17 @@
 
       <div class="calculator-container">
         <div>
-          <h2>Räkna ut ditt pris här!</h2>
+          <h2 class="h2-calculator">Räkna ut ditt pris här!</h2>
         </div>
         <div>
-          <label for="windows">Antal fönster</label>
-          <input type="number" id="windowCount" min="0" />
-          <div id="calculateBtn" class="custom-btn">Få ungefärligt pris</div>
+          <label for="windows">Hur många fönster?</label>
+          <input class="input-windowCount" type="number" id="windowCount" min="0" />
+          <div id="calculateBtn" class="custom-btn">
+            <p class="calculate-p">Räkna ut pris</p>
+          </div>
 
           <div id="result-box">
-            <p id="priceOutput"></p>
+            <p id="priceOutput">Ungefärligt pris visas här</p>
           </div>
         </div>
         <script src="pricecalculator.js"></script>
