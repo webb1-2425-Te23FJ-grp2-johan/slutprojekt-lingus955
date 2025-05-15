@@ -351,7 +351,25 @@ p {
 
 .cards-container {
   display: grid;
+
+  @media screen and (min-width: 699px) {
   grid-template-columns: 1fr 1fr;
+  }
+}
+
+.ring-div {
+  background-color: #58a0ff;
+  border: solid 3px;
+  border-radius: 20px;
+  border-color: #3e92ff;
+  text-align: center;
+  transition: 0.4s;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ring-text {
+  color: white;
 }
 
 .email-link-text {
