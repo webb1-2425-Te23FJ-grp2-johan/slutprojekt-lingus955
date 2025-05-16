@@ -745,3 +745,11 @@ h1 {
 .h2-calculator {
   margin-bottom: 0;
 }
+
+#textDisplay {
+  color: white;
+  font-size: 22px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  background-color: #109bff;
+}
