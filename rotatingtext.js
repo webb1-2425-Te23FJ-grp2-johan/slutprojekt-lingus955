@@ -1,6 +1,6 @@
 const textContent = [
   "20% rabatt på bokningar online",
-  "Garanterade skinande resultat",
+  "Skinande resultat - garanterat!",
   "100+ nöjda kunder"
 ];
 

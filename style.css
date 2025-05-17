@@ -3,6 +3,7 @@
 }
 
 :root {
+  font-size: 16px;
 }
 
 img {
@@ -36,6 +37,11 @@ img {
 .header {
   min-height: 70px;
   background-color: #55b8ff1f;
+}
+
+.top-links:hover {
+  font-weight: 500;
+  transition: 0.5s;
 }
 
 .logo {
@@ -241,7 +247,7 @@ p {
 }
 
 .boka-div-link:hover {
-  background-color: #98d9ff;
+  background-color: #177cff;
   transition: 0.5s;
 }
 
@@ -425,6 +431,58 @@ p {
 .navbar {
   position: absolute;
   padding-left: 30px;
+}
+
+.navbar-ul {
+  position: absolute;
+  display: none;
+  background-color: white; /* or whatever fits your design */
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 0 4px 8px #00000050;
+  border-radius: 20px;
+}
+
+.navbar-wrapper:hover .navbar-ul {
+  display: block;
+}
+
+.navbar-wrapper {
+  position: relative;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  padding: 10px;
+  background-color: #109bff;
+  color: white;
+  max-height: 50%;
+  border: solid #ffffff34;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.navbar-item:hover {
+  background-color: #007dd6;
+  transition: 0.5s;
+}
+
+.nav-link-text {
+  margin-top: 6px;
+  margin-left: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-icon {
+  background-color:white;
+  border-radius: 10px;
+  padding: 2px;
 }
 
 .footer {
@@ -753,7 +811,6 @@ h1 {
   transition: opacity 1s ease-in-out;
   background-color: #109bff;
 }
-
 
 #textSpan {
   color: white;
