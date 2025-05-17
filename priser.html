@@ -52,19 +52,19 @@
               </li>
               <li class="navbar-item">
                 <a href="anvandarvillkor.html" class="nav-link">
-                  <img src="img/iconTerms.svg" alt="" class="navbar-icon"/>
+                  <img src="img/iconTerms.svg" alt="" class="navbar-icon" />
                   <span class="nav-link-text">Användarvillkor</span>
                 </a>
               </li>
               <li class="navbar-item">
                 <a href="kontakta-oss.html" class="nav-link">
-                  <img src="img/iconContact.svg" alt="" class="navbar-icon"/>
+                  <img src="img/iconContact.svg" alt="" class="navbar-icon" />
                   <span class="nav-link-text">Kontakta oss</span>
                 </a>
               </li>
               <li class="navbar-item">
                 <a href="priser.html" class="nav-link">
-                  <img src="img/iconPrices.svg" alt="" class="navbar-icon"/>
+                  <img src="img/iconPrices.svg" alt="" class="navbar-icon" />
                   <span class="nav-link-text">Priser</span>
                 </a>
               </li>
@@ -86,11 +86,16 @@
 
       <div class="calculator-container">
         <div>
-          <h2 class="h2-calculator">Räkna ut ditt pris här!</h2>
+          <h2 class="h2-calculator">Räkna ut ungefärligt pris!</h2>
         </div>
         <div>
           <label for="windows">Hur många fönster?</label>
-          <input class="input-windowCount" type="number" id="windowCount" min="0" />
+          <input
+            class="input-windowCount"
+            type="number"
+            id="windowCount"
+            min="0"
+          />
           <div id="calculateBtn" class="custom-btn">
             <p class="calculate-p">Räkna ut pris</p>
           </div>
@@ -100,52 +105,6 @@
           </div>
         </div>
         <script src="pricecalculator.js"></script>
-      </div>
-
-      <div class="prislista">
-        <div class="boka-div">
-          <div class="boka-tid-h1-container">
-            <h1 class="boka-tid-h1">Prislista</h1>
-          </div>
-        </div>
-
-        <div class="prislista-page-parent">
-          <h2>Pris för <u>både</u> in och utvändigt</h2>
-          <p class="small-text">(Antal fönster)</p>
-          <p class="small-text">(Priset är exkl. RUT)</p>
-          <div class="pris-box">
-            <div class="pris-box-box">
-              <p class="info-list">5-10 st = 300 kr - 800 kr</p>
-              <p class="info-list">10-20 st = 800 kr - 1300 kr</p>
-              <p class="info-list">20-30 st = 1300 kr - 1800 kr</p>
-              <p class="info-list">30-40 st = 1800 kr - 2400 kr</p>
-            </div>
-          </div>
-          <h2>Pris för <u>antingen</u> invändigt eller utvändigt</h2>
-          <p class="small-text">(Antal fönster)</p>
-          <p class="small-text">(Priset är exkl. RUT)</p>
-          <div class="pris-box">
-            <div class="pris-box-box">
-              <p class="info-list">5-10 st = 200 kr - 400 kr</p>
-              <p class="info-list">10-20 st = 400 kr - 700 kr</p>
-              <p class="info-list">20-30 st = 700 kr - 1100 kr</p>
-              <p class="info-list">30-40 st = 1100 kr - 1500 kr</p>
-            </div>
-          </div>
-
-          <div class="obs-box">
-            <h2 class="big-h2">OBS:</h2>
-            <p class="big-p">
-              Priserna är exklusive RUT. Detta är alltså priserna kunden själv
-              betalar.
-            </p>
-            <p class="big-p">
-              Priserna är inte fastslagna i sten, detta är endast en ungefärlig
-              uppskattning. Priserna varierar beroende på fönsterstorlek,
-              svårighetsgrad med mera.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -168,7 +127,9 @@
             <a class="white-color" href="boka.html">Boka tid</a>
             <a class="white-color" href="priser.html">Priser</a>
             <a class="white-color" href="kontakta-oss.html">Kontakta oss</a>
-            <a class="white-color" href="anvandarvillkor.html">Användarvillkor</a>
+            <a class="white-color" href="anvandarvillkor.html"
+              >Användarvillkor</a
+            >
           </div>
         </div>
 

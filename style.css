@@ -436,7 +436,7 @@ p {
 .navbar-ul {
   position: absolute;
   display: none;
-  background-color: white; /* or whatever fits your design */
+  background-color: white;
   list-style: none;
   padding: 10px;
   margin: 0;
@@ -464,7 +464,9 @@ p {
   max-height: 50%;
   border: solid #ffffff34;
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navbar-item:hover {
