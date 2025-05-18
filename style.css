@@ -74,6 +74,7 @@ body {
 
   @media screen and (min-width: 699px) {
     grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
   }
 }
 
@@ -151,8 +152,6 @@ body {
   margin-top: 30px;
   padding: 10px;
   border-radius: 15px;
-  border: solid;
-  border-color: #00000007;
 }
 
 .valkommen-text {
@@ -177,8 +176,6 @@ p {
   padding: 15px;
   background-color: #f7f7f7;
   border-radius: 20px;
-  border: solid;
-  border-color: #00000007;
   /* max-height: 270px; */
   display: flex;
 
@@ -194,8 +191,6 @@ p {
   padding: 15px;
   background-color: #f7f7f7;
   border-radius: 20px;
-  border: solid;
-  border-color: #00000007;
   /* max-height: 270px; */
 
   @media screen and (min-width: 699px) {
@@ -234,8 +229,6 @@ p {
   background-color: #c9e9ff;
   padding: 15px;
   border-radius: 20px;
-  border: solid;
-  border-color: #1673b11a;
   max-width: 500px;
 
   @media screen and (min-width: 0px) {
@@ -287,8 +280,6 @@ p {
   margin: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  border: solid;
-  border-color: #f1b35744;
   border-radius: 20px;
 }
 
@@ -494,6 +485,13 @@ p {
   margin-left: 10px;
   color: white;
   font-weight: 500;
+  padding-right: 10px;
+}
+
+.nav-link-text:hover {
+  transition: 0.5s;
+  padding-left: 10px;
+  padding-right: 0;
 }
 
 .navbar-icon {
