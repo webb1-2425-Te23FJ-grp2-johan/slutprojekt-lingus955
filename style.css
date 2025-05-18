@@ -541,9 +541,6 @@ p {
   }
 }
 
-.footer-links-container {
-}
-
 .footer-about-us {
   display: flex;
   flex-direction: column;
@@ -646,9 +643,6 @@ p {
 
 h1 {
   margin-bottom: 10px;
-}
-
-.below-homepage-grid {
 }
 
 .cookiebar,
@@ -866,4 +860,14 @@ h1 {
   opacity: 1;
   transition: opacity 1s ease-in-out;
   display: inline-block;
+}
+
+.image-collage {
+  background-color: #000000;
+  max-width: 1200px;
+  display: grid;
+}
+.all-collage-images {
+  background-color: #923232;
+  width: 10px;
 }
