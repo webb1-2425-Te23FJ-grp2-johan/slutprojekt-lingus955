@@ -570,11 +570,20 @@ p {
 }
 
 .submit-button {
-  max-width: 40%;
-  background-color: #58a0ff;
+  max-width: 250px;
   color: white;
-  border: none;
-  padding: 8px;
+  font-weight: 700;
+  background-color: #58a0ff;
+  border: solid 3px;
+  border-radius: 20px;
+  border-color: #8dbeff;
+  padding: 10px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.submit-button:hover {
+  background-color: #0082df;
 }
 
 .instagram-div {
@@ -698,16 +707,16 @@ h1 {
 }
 
 @media screen and (min-width: 479px) {
-    #button-yes,
-    #button-no {
-      display: flex;
-      margin: 12px;
-      padding: 10px;
-      align-self: center;
-      border-radius: 15px;
-      min-width: 150px;
-    }
+  #button-yes,
+  #button-no {
+    display: flex;
+    margin: 12px;
+    padding: 10px;
+    align-self: center;
+    border-radius: 15px;
+    min-width: 150px;
   }
+}
 
 #button-yes {
   background-color: #2a86ff;
@@ -862,13 +871,11 @@ h1 {
   display: inline-block;
 }
 
-
 .collage-container {
   background-image: url(img/6.png);
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.664);
   background-blend-mode: darken;
-  margin-bottom: 100px;
 }
 
 .collage {
@@ -914,9 +921,7 @@ h1 {
 }
 
 @media screen and (max-width: 1169px) {
-  
-.collage-container {
-  display: none;
-}
-
+  .collage-container {
+    display: none;
+  }
 }
