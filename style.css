@@ -862,12 +862,61 @@ h1 {
   display: inline-block;
 }
 
-.image-collage {
-  background-color: #000000;
+
+.collage-container {
+  background-image: url(img/6.png);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.664);
+  background-blend-mode: darken;
+  margin-bottom: 100px;
+}
+
+.collage {
   max-width: 1200px;
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
 }
-.all-collage-images {
-  background-color: #923232;
-  width: 10px;
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 100px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.image-div {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.collage-image-1 {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1169px) {
+  
+.collage-container {
+  display: none;
+}
+
 }
