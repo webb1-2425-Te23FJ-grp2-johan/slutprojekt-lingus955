@@ -48,11 +48,21 @@ img {
   max-width: 225px;
 }
 
+.top-link-computerOnly {
+  @media screen and (max-width: 539px) {
+    display: none;
+  }
+}
+
 .links {
   display: flex;
   justify-content: center;
   gap: 15px;
   padding-bottom: 10px;
+
+  @media screen and (min-width: 539px) {
+    gap: 20px;
+  }
 }
 
 a {
@@ -363,6 +373,8 @@ p {
 
 .cards-container {
   display: grid;
+  margin-bottom: 70px;
+  margin-top: 20px;
 
   @media screen and (min-width: 699px) {
     grid-template-columns: 1fr 1fr;
@@ -872,8 +884,8 @@ h1 {
 .collage-container {
   background-image: url(img/6.png);
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.664);
-  background-blend-mode: darken;
+  background-color: rgba(255, 255, 255, 0.815);
+  background-blend-mode: lighten;
 }
 
 .collage {
@@ -908,7 +920,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  padding: 8px;
+  padding: 5px;
   border-radius: 10px;
 }
 
@@ -919,7 +931,49 @@ h1 {
 }
 
 @media screen and (max-width: 1169px) {
-  .collage-container {
-    display: none;
+  .grid-1 {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    margin-top: 50px;
   }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .collage-image-1 {
+    border-radius: 10px;
+    max-width: 300px;
+  }
+
+  .collage {
+    display: grid;
+  }
+
+  .image-div {
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+}
+
+.abonnemang-h1-container {
+}
+
+.abonnemang-h1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.abonnemang-h1-container {
 }
