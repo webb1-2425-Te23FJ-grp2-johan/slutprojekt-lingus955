@@ -983,9 +983,27 @@ h1 {
   margin-top: 100px;
 }
 
+.h1-package {
+  margin-top: 0px;
+  background-color: #bee4ff9c;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.p-package {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.month-package {
+  border: solid 5px #0095ff;
+}
+
 .package-1 {
   background-color: #ffffff;
-  display: grid;
   width: 350px;
   height: 400px;
   margin: 10px;
@@ -995,4 +1013,28 @@ h1 {
   margin-right: auto;
   padding: 50px;
   border-radius: 20px;
+}
+
+.div-abonnemang-button {
+  background-color: #58a0ff;
+  border: solid 3px;
+  border-radius: 20px;
+  border-color: #3e92ff;
+  padding: 14px;
+  width: 200px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.div-abonnemang-button:hover {
+  transition: 0.5s;
+  background-color: #0085e4;
+}
+
+.most-popular {
+
+}
+
+.most-popular-button {
+  background: black;
 }
