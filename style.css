@@ -960,7 +960,7 @@ h1 {
   }
 
   .image-div {
-    background-color: #ffffff;
+    background-color: #fcd9d9;
     border-radius: 10px;
   }
 }
@@ -972,19 +972,27 @@ h1 {
 }
 
 .container-pricePackages {
-  background-color: #004e8627;
+  background-color: #109bff8c;
 }
 
 .abonnemang-pricePackages {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: 1fr 1fr 1fr;
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .package-1 {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   display: grid;
-  max-width: 300px;
+  width: 350px;
+  height: 400px;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+  padding: 50px;
+  border-radius: 20px;
 }
