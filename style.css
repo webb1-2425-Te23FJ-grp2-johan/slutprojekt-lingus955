@@ -560,11 +560,15 @@ p {
 .footer-info {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 5px;
 }
 
 .white-color {
   color: white;
+}
+
+.footLink {
+  padding-bottom: 16px;
 }
 
 .contactform-container {
@@ -646,6 +650,12 @@ p {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: 699px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+  }
 }
 
 .call-us-div-2 {
@@ -960,7 +970,7 @@ h1 {
   }
 
   .image-div {
-    background-color: #fcd9d9;
+    background-color: #ffffff;
     border-radius: 10px;
   }
 }
@@ -969,6 +979,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+  margin-top: 100px;
 }
 
 .container-pricePackages {
@@ -981,6 +992,11 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+
+  @media screen and (max-width: 1229px) {
+    flex-direction: column;
+    padding-bottom: 100px;
+  }
 }
 
 .h1-package {
@@ -999,7 +1015,12 @@ h1 {
 }
 
 .month-package {
-  border: solid 5px #0095ff;
+  border: solid 8px #41b0ff;
+}
+
+.h1-mostPopular {
+  background-color: #3caeff;
+  color: white;
 }
 
 .package-1 {
@@ -1013,6 +1034,10 @@ h1 {
   margin-right: auto;
   padding: 50px;
   border-radius: 20px;
+
+  @media screen and (max-width: 1229px) {
+    margin-bottom: 0px;
+  }
 }
 
 .div-abonnemang-button {
@@ -1032,9 +1057,14 @@ h1 {
 }
 
 .most-popular {
-
 }
 
 .most-popular-button {
-  background: black;
+  background-color: #3caeff;
+  border-color: #ffffffa1;
+}
+
+.most-popular-button:hover {
+  background-color: #0095ff;
+  border-color: #ffffff6e;
 }
