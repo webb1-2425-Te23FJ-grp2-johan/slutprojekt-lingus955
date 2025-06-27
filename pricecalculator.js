@@ -9,9 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (windowCount && windowCount > 0) {
       const totalPrice = windowCount * pricePerWindow;
 
-      document.getElementById(
-        "priceOutput"
-      ).textContent = `Ungefärligt pris: ${totalPrice} kr`;
+      document.querySelector("#priceOutput").innerHTML = `Ungefärligt pris: ${totalPrice} kr`;
     }
   });
 });
